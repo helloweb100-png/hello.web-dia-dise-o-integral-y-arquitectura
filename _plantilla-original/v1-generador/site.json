@@ -1,0 +1,307 @@
+{
+  "lang": "es-MX",
+  "brand": {
+    "name": "DIIA",
+    "logo": "img/logo-diia.png",
+    "show_name": false,
+    "colors": {
+      "primary": "#cfb565",
+      "secondary": "#a88a3d",
+      "accent": "#ecdba2"
+    },
+    "theme": "mixed",
+    "font": {
+      "display": "Jost",
+      "body": "Inter"
+    },
+    "radius": "sharp"
+  },
+  "seo": {
+    "title": "DIIA | Arquitectura e ingeniería integral en México",
+    "description": "Diseño integral de ingeniería y arquitectura: proyectos residenciales, oficinas, espacios comerciales e ingeniería en instalaciones. Cuéntanos tu idea.",
+    "keywords": [
+      "arquitectura",
+      "ingeniería",
+      "diseño integral",
+      "proyectos residenciales",
+      "diseño de oficinas",
+      "interiorismo",
+      "ingeniería en instalaciones",
+      "gestión de proyectos de construcción",
+      "CDMX"
+    ],
+    "business_type": "ProfessionalService",
+    "area": "México",
+    "og_image": "img/hero-arquitectura.jpg"
+  },
+  "contact": {
+    "whatsapp": "5525069867",
+    "message": "Hola DIIA, vi su página web y me gustaría platicarles mi proyecto.",
+    "phone": "+52 55 2506 9867",
+    "email": "contactodiia@gmail.com",
+    "whatsapp_display": "Escríbenos por WhatsApp",
+    "float_label": "¿Platicamos tu proyecto?"
+  },
+  "header_cta": {
+    "label": "Quiero mi proyecto",
+    "href": "#contacto"
+  },
+  "loader": {
+    "text": "Ingeniería y arquitectura",
+    "duration": 2600
+  },
+  "hero": {
+    "fx": "beams",
+    "layout": "split",
+    "eyebrow": "Arquitectura · Ingeniería · Desde 2022",
+    "title": "Arquitectura que inspira. *Ingeniería que se sostiene.*",
+    "subtitle": "Un solo equipo para proyectar, diseñar y controlar tu obra: de oficinas en CDMX a resorts en Arabia Saudita.",
+    "cta": {
+      "label": "Estoy listo para empezar",
+      "href": "#contacto"
+    },
+    "cta2": {
+      "label": "Ver proyectos reales",
+      "href": "#proyectos"
+    },
+    "badges": [
+      "Proyecto ejecutivo e ingenierías",
+      "Interiorismo y remodelación",
+      "Gestión de obra"
+    ],
+    "chips": [
+      "Arquitectura + ingeniería",
+      {
+        "text": "Haciendo proyectos realidad desde 2022",
+        "icon": "award"
+      },
+      {
+        "text": "México · Arabia Saudita",
+        "icon": "globe"
+      }
+    ],
+    "image": {
+      "src": "img/hero-arquitectura.jpg",
+      "alt": "Estructura arquitectónica de líneas diagonales en blanco y negro con cielo oscuro",
+      "w": 1200,
+      "h": 1807
+    }
+  },
+  "sections": [
+    {
+      "type": "marquee",
+      "title": "Especialidades de DIIA",
+      "items": [
+        "Proyectos residenciales",
+        "Oficinas",
+        "Espacios comerciales",
+        "Urbanismo",
+        "Interiorismo",
+        "Ingeniería hidrosanitaria",
+        "Protección contra incendio",
+        "HVAC",
+        "Instalaciones eléctricas",
+        "Gestión de proyectos"
+      ]
+    },
+    {
+      "type": "services",
+      "nav": "Servicios",
+      "eyebrow": "Lo que hacemos",
+      "title": "Todo lo que tu proyecto necesita, *bajo un mismo techo*",
+      "lead": "Desde el primer trazo hasta la entrega: arquitectura, interiorismo e ingeniería trabajando en sincronía.",
+      "link": "Lo quiero en mi proyecto",
+      "items": [
+        {
+          "icon": "building",
+          "title": "Diseño integral de ingeniería y arquitectura",
+          "wide": true,
+          "text": "El arquitecto y el ingeniero trabajan juntos desde el primer plano, para evitar sobrecostos y entregar a tiempo.",
+          "list": [
+            "Proyecto arquitectónico y ejecutivo",
+            "Coordinación entre todas las disciplinas"
+          ]
+        },
+        {
+          "icon": "layers",
+          "title": "Interiorismo y remodelación",
+          "text": "Espacios funcionales y estéticos: oficinas, departamentos y comercios pensados para quien los usa."
+        },
+        {
+          "icon": "zap",
+          "title": "Ingeniería en instalaciones",
+          "text": "Hidrosanitaria, PCI, HVAC, eléctrica y especiales, conforme a la normatividad vigente."
+        },
+        {
+          "icon": "target",
+          "title": "Gestión de proyectos de construcción",
+          "text": "Control de principio a fin para cumplir plazos, cuidar el presupuesto y evitar pérdidas."
+        },
+        {
+          "icon": "shield",
+          "title": "Consultoría especializada",
+          "text": "Asesoría en manos de expertos, con base en normas, reglamentos y la visión de tu proyecto."
+        }
+      ]
+    },
+    {
+      "type": "about",
+      "nav": "Nosotros",
+      "tone": "dark",
+      "eyebrow": "Sobre nosotros",
+      "title": "Profesionales que *hacen realidad* cada proyecto",
+      "text": [
+        "Somos un equipo de profesionales altamente capacitados en diseño y ejecución de proyectos. A lo largo de nuestra trayectoria hemos desarrollado proyectos innovadores y sostenibles que han superado nuestras expectativas.",
+        "Mostramos nuestro trabajo con un objetivo: que veas la calidad, la eficiencia y el compromiso con los que atendemos a cada cliente y a cada necesidad."
+      ],
+      "points": [
+        "Diseñar espacios funcionales y estéticos",
+        "Optimizar recursos y reducir costos",
+        "Cumplir con los plazos y presupuestos establecidos",
+        "Brindar soluciones sostenibles y respetuosas con el medio ambiente"
+      ],
+      "image": {
+        "src": "img/instalaciones-tuberias.jpg",
+        "alt": "Instalaciones hidrosanitarias, HVAC y eléctricas coordinadas en el plafón de un edificio",
+        "w": 1183,
+        "h": 1330
+      },
+      "badge": {
+        "value": "2022",
+        "label": "Haciendo proyectos realidad desde"
+      },
+      "cta": {
+        "label": "Quiero platicar con el equipo",
+        "href": "wa"
+      }
+    },
+    {
+      "type": "stats",
+      "items": [
+        {
+          "value": 8,
+          "label": "Proyectos destacados en nuestro portafolio"
+        },
+        {
+          "value": 2,
+          "label": "Países: México y Arabia Saudita"
+        },
+        {
+          "value": 79,
+          "label": "Villas con ingeniería en Azulik AlUla"
+        },
+        {
+          "value": 5,
+          "label": "Ingenierías coordinadas en un solo proyecto"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "id": "proyectos",
+      "nav": "Proyectos",
+      "html": "\n<section class=\"sec sec--proy\" id=\"proyectos\" aria-labelledby=\"proyectos-title\">\n  <div class=\"container\">\n    <header class=\"sec-head\" data-reveal>\n      <p class=\"eyebrow\">Proyectos arquitectónicos</p>\n      <h2 id=\"proyectos-title\">Espacios que ya son <em class=\"grad\">realidad</em></h2>\n      <p class=\"lead\">Restaurantes, oficinas, estéticas y departamentos: cada proyecto nace de una idea clara y termina en un lugar que se vive.</p>\n    </header>\n    <div class=\"proj-grid\" data-stagger>\n\n<article class=\"proj proj--a\" data-reveal=\"zoom\">\n  <div class=\"proj__media\" data-parallax=\"0.04\"><img src=\"img/lee-hou-fachada.jpg\" alt=\"Fachada del restaurante Tong Fong en el Barrio Chino de la Ciudad de México, con vegetación y detalles rojos\" loading=\"lazy\" decoding=\"async\" style=\"object-position:0% 50%\"></div>\n  <span class=\"proj__no\" aria-hidden=\"true\">01</span>\n  <span class=\"proj__where\">CDMX</span>\n  <div class=\"proj__body\">\n    <p class=\"proj__tag\">Diseño de restaurante</p>\n    <h3 class=\"proj__name\">Lee Hou</h3>\n    <p class=\"proj__loc\">Restaurante Tong Fong · Barrio Chino, CDMX</p>\n    <p class=\"proj__txt\">Tres niveles con un solo hilo conductor: el dragón chino, símbolo de poder, buena fortuna y protección, presente desde la fachada hasta los rincones más íntimos.</p>\n  </div>\n</article>\n\n<article class=\"proj proj--b\" data-reveal=\"zoom\">\n  <div class=\"proj__media\" data-parallax=\"0.05\"><img src=\"img/figuero-estetica.jpg\" alt=\"Interior de una estética en Polanco con estaciones de madera, estructura de acero negro y piso claro\" loading=\"lazy\" decoding=\"async\" style=\"object-position:40% 50%\"></div>\n  <span class=\"proj__no\" aria-hidden=\"true\">02</span>\n  <span class=\"proj__where\">Polanco · CDMX</span>\n  <div class=\"proj__body\">\n    <p class=\"proj__tag\">Remodelación de estética</p>\n    <h3 class=\"proj__name\">Figuero</h3>\n    <p class=\"proj__loc\">Estética especializada · Polanco, CDMX</p>\n    <p class=\"proj__txt\">Un espacio pensado para la comodidad del cliente y el mejor aprovechamiento de cada metro: madera, acero negro y luz cálida.</p>\n  </div>\n</article>\n\n<article class=\"proj proj--c\" data-reveal=\"zoom\">\n  <div class=\"proj__media\" data-parallax=\"0.05\"><img src=\"img/catrans-recepcion.jpg\" alt=\"Recepción de las oficinas Catrans con letrero negro, barra iluminada y planta decorativa\" loading=\"lazy\" decoding=\"async\" style=\"object-position:50% 40%\"></div>\n  <span class=\"proj__no\" aria-hidden=\"true\">03</span>\n  <span class=\"proj__where\">Reforma · CDMX</span>\n  <div class=\"proj__body\">\n    <p class=\"proj__tag\">Diseño de oficinas</p>\n    <h3 class=\"proj__name\">Catrans</h3>\n    <p class=\"proj__loc\">Oficinas · Be Grand Reforma, CDMX</p>\n    <p class=\"proj__txt\">Elegancia y practicidad en un entorno de trabajo que refleja la identidad de la empresa y cuida el bienestar de su equipo.</p>\n  </div>\n</article>\n\n<article class=\"proj proj--d\" data-reveal=\"zoom\">\n  <div class=\"proj__media\" data-parallax=\"0.05\"><img src=\"img/pascua-oficinas.jpg\" alt=\"Área de trabajo abierta con escritorios en verde salvia y madera clara en las oficinas Pascua\" loading=\"lazy\" decoding=\"async\" style=\"object-position:50% 55%\"></div>\n  <span class=\"proj__no\" aria-hidden=\"true\">04</span>\n  <span class=\"proj__where\">Edo. Méx.</span>\n  <div class=\"proj__body\">\n    <p class=\"proj__tag\">Diseño de oficinas</p>\n    <h3 class=\"proj__name\">Pascua</h3>\n    <p class=\"proj__loc\">Oficinas · Estado de México</p>\n    <p class=\"proj__txt\">Oficinas ergonómicas y flexibles, con cocinas, mobiliario, recepción, baños y áreas de trabajo diseñados a la medida del equipo.</p>\n  </div>\n</article>\n\n<article class=\"proj proj--e\" data-reveal=\"zoom\">\n  <div class=\"proj__media\" data-parallax=\"0.05\"><img src=\"img/neuchatel-sala.jpg\" alt=\"Sala y comedor de un departamento en Torre Neuchatel con mármol, madera y luz natural\" loading=\"lazy\" decoding=\"async\" style=\"object-position:50% 60%\"></div>\n  <span class=\"proj__no\" aria-hidden=\"true\">05</span>\n  <span class=\"proj__where\">Polanco · CDMX</span>\n  <div class=\"proj__body\">\n    <p class=\"proj__tag\">Diseño de interiores · Departamentos</p>\n    <h3 class=\"proj__name\">Neuchatel</h3>\n    <p class=\"proj__loc\">Departamento · Torre Neuchatel, Polanco</p>\n    <p class=\"proj__txt\">Interiorismo que redefine el espacio y eleva la experiencia de vivir: un ambiente que inspira, relaja y revitaliza.</p>\n  </div>\n</article>\n    </div>\n    <div class=\"sec-cta\" data-reveal>\n      <p>¿Tu espacio sigue siendo una idea? Platícanosla.</p>\n      <a class=\"btn btn--primary btn--lg\" href=\"#contacto\" data-service=\"Diseño integral de ingeniería y arquitectura\" data-cta data-magnetic>Quiero un proyecto como estos<svg class=\"ico ico--arrow\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#i-arrow\"/></svg></a>\n    </div>\n  </div>\n</section>"
+    },
+    {
+      "type": "html",
+      "id": "ingenieria",
+      "nav": "Ingeniería",
+      "html": "\n<section class=\"sec sec--ing\" id=\"ingenieria\" data-tone=\"dark\" aria-labelledby=\"ingenieria-title\">\n  <div class=\"container\">\n    <div class=\"ing-top\">\n      <div class=\"ing-copy\" data-reveal=\"left\">\n        <p class=\"eyebrow\">Ingeniería en instalaciones</p>\n        <h2 id=\"ingenieria-title\">Lo que no se ve es lo que <em class=\"grad\">hace que todo funcione</em></h2>\n        <p class=\"lead\">Desarrollamos el proyecto ejecutivo con todas las ingenierías coordinadas entre sí y con la normatividad vigente, desde torres residenciales hasta resorts en el desierto.</p>\n        <ul class=\"disc\"><li><b>01</b><span>Hidrosanitaria</span></li><li><b>02</b><span>PCI · protección contra incendio</span></li><li><b>03</b><span>HVAC · climatización</span></li><li><b>04</b><span>Eléctrica</span></li><li><b>05</b><span>Instalaciones especiales</span></li></ul>\n      </div>\n      <figure class=\"blueprint\" data-reveal=\"right\">\n        <img src=\"img/plano-instalaciones.jpg\" alt=\"Plano isométrico de instalaciones hidrosanitarias, eléctricas y especiales de un conjunto residencial circular\" loading=\"lazy\" decoding=\"async\">\n        <figcaption>Isométrico de instalaciones · Azulik Residences, Tulum</figcaption>\n      </figure>\n    </div>\n    <div class=\"proj-grid proj-grid--ing\" data-stagger>\n\n<article class=\"proj proj--w\" data-reveal=\"zoom\">\n  <div class=\"proj__media\" data-parallax=\"0.04\"><img src=\"img/azulik-neom-yuba.jpg\" alt=\"Resort Azulik NEOM Yuba de arquitectura angular color arena junto a una alberca turquesa sobre un acantilado\" loading=\"lazy\" decoding=\"async\" style=\"object-position:50% 55%\"></div>\n  <span class=\"proj__no\" aria-hidden=\"true\">01</span>\n  <span class=\"proj__where\">Arabia Saudita</span>\n  <div class=\"proj__body\">\n    <p class=\"proj__tag\">Diseño de ingenierías en resort</p>\n    <h3 class=\"proj__name\">Azulik NEOM Yuba Resort</h3>\n    <p class=\"proj__loc\">Resort residencial con amenidades · Arabia Saudita</p>\n    <p class=\"proj__txt\">Ingenierías hidrosanitaria, PCI, especiales, HVAC y eléctrica para una arquitectura de formas angulares que dialoga con el desierto y el mar.</p>\n  </div>\n</article>\n\n<article class=\"proj proj--x\" data-reveal=\"zoom\">\n  <div class=\"proj__media\" data-parallax=\"0.05\"><img src=\"img/azulik-alula.jpg\" alt=\"Villas orgánicas de barro del resort Azulik AlUla entre montañas rojizas del desierto de Arabia\" loading=\"lazy\" decoding=\"async\" style=\"object-position:50% 60%\"></div>\n  <span class=\"proj__no\" aria-hidden=\"true\">02</span>\n  <span class=\"proj__where\">Arabia Saudita</span>\n  <div class=\"proj__body\">\n    <p class=\"proj__tag\">Diseño de ingenierías en resort</p>\n    <h3 class=\"proj__name\">Azulik AlUla</h3>\n    <p class=\"proj__loc\">Resort residencial · Arabia Saudita</p>\n    <p class=\"proj__txt\">79 villas, spa y amenidades que se funden con el paisaje del desierto. Proyecto ejecutivo con ingenierías hidrosanitaria, PCI, especiales, HVAC y eléctrica.</p>\n  </div>\n</article>\n\n<article class=\"proj proj--y\" data-reveal=\"zoom\">\n  <div class=\"proj__media\" data-parallax=\"0.05\"><img src=\"img/azulik-residences-tulum.jpg\" alt=\"Torres residenciales Azulik Residences en Tulum con formas orgánicas, vegetación y cascadas\" loading=\"lazy\" decoding=\"async\" style=\"object-position:50% 45%\"></div>\n  <span class=\"proj__no\" aria-hidden=\"true\">03</span>\n  <span class=\"proj__where\">Tulum · México</span>\n  <div class=\"proj__body\">\n    <p class=\"proj__tag\">Diseño de ingenierías en departamentos</p>\n    <h3 class=\"proj__name\">Azulik Residences</h3>\n    <p class=\"proj__loc\">Departamentos residenciales · Tulum</p>\n    <p class=\"proj__txt\">Conjunto de torres con estética moderna y abundante luz natural. Proyecto ejecutivo con las ingenierías coordinadas según la distribución de cada área.</p>\n  </div>\n</article>\n    </div>\n    <div class=\"sec-cta\" data-reveal>\n      <p>¿Tu obra necesita ingenierías que sí se coordinen?</p>\n      <a class=\"btn btn--primary btn--lg\" href=\"#contacto\" data-service=\"Ingeniería en instalaciones\" data-cta data-magnetic>Necesito ingeniería para mi obra<svg class=\"ico ico--arrow\" aria-hidden=\"true\" focusable=\"false\"><use href=\"#i-arrow\"/></svg></a>\n    </div>\n  </div>\n</section>"
+    },
+    {
+      "type": "process",
+      "nav": "Proceso",
+      "id": "proceso",
+      "alt": true,
+      "eyebrow": "Cómo trabajamos",
+      "title": "De tu idea a la obra, *en 4 pasos*",
+      "steps": [
+        {
+          "title": "Platicamos tu proyecto",
+          "text": "Nos cuentas qué necesitas, para quién es y con qué presupuesto cuentas."
+        },
+        {
+          "title": "Diseñamos la propuesta",
+          "text": "Concepto, distribución e imagen del espacio, pensados para su uso real."
+        },
+        {
+          "title": "Desarrollamos el proyecto ejecutivo",
+          "text": "Planos e ingenierías coordinados y alineados con la normatividad vigente."
+        },
+        {
+          "title": "Te acompañamos en la obra",
+          "text": "Control del proyecto para cumplir plazos y cuidar tu presupuesto."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "nav": "",
+      "eyebrow": "Dudas frecuentes",
+      "title": "Resolvemos lo que *te estás preguntando*",
+      "items": [
+        {
+          "q": "¿Qué tipo de proyectos desarrollan?",
+          "a": "Proyectos residenciales, oficinas, espacios comerciales y urbanismo, además de interiorismo, remodelación e ingeniería en instalaciones."
+        },
+        {
+          "q": "¿Diseñan y también hacen las ingenierías?",
+          "a": "Sí. Desarrollamos el proyecto ejecutivo con las ingenierías hidrosanitaria, PCI, HVAC, eléctrica y especiales, coordinadas con el diseño y con la normatividad vigente."
+        },
+        {
+          "q": "¿Pueden ayudarme a cuidar tiempos y presupuesto?",
+          "a": "Sí. Llevamos la gestión del proyecto de construcción para que las entregas sean a tiempo, el presupuesto se cuide y se eviten pérdidas."
+        },
+        {
+          "q": "¿Trabajan fuera de la Ciudad de México?",
+          "a": "Sí. Nuestro portafolio incluye proyectos en la Ciudad de México, el Estado de México, Tulum y Arabia Saudita."
+        },
+        {
+          "q": "¿Cómo empiezo?",
+          "a": "Escríbenos por WhatsApp o llena el formulario con una idea general de lo que imaginas. Nosotros te contactamos para platicar tu proyecto."
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "¿Tienes un terreno, un espacio o *una idea?*",
+      "lead": "Cuéntanos qué imaginas. Nosotros nos encargamos de diseñarlo, proyectarlo y darle seguimiento hasta que sea realidad.",
+      "cta": {
+        "label": "Sí, quiero hacer realidad mi proyecto",
+        "href": "wa"
+      },
+      "cta2": {
+        "label": "Prefiero escribir mi mensaje",
+        "href": "#contacto"
+      }
+    },
+    {
+      "type": "contact",
+      "nav": "Contacto",
+      "alt": true,
+      "eyebrow": "Hablemos",
+      "title": "Cuéntanos tu proyecto *y empecemos*",
+      "lead": "Déjanos tus datos y abrimos una conversación por WhatsApp con tu mensaje listo.",
+      "form": {
+        "title": "Tu proyecto empieza con un mensaje",
+        "button": "Quiero que me contacten",
+        "note": "Se abrirá WhatsApp con tu mensaje listo. Sin compromiso.",
+        "service_label": "¿Qué necesitas?",
+        "message_label": "Cuéntanos de tu proyecto",
+        "placeholder": "Tipo de espacio, ubicación y lo que tienes en mente"
+      }
+    }
+  ],
+  "footer": {
+    "text": "Diseño integral de ingeniería y arquitectura. Proyectos residenciales, oficinas, espacios comerciales y urbanismo.",
+    "social": [
+      {
+        "name": "instagram",
+        "href": "https://www.instagram.com/diia_mex"
+      }
+    ],
+    "legal": "Haciendo proyectos realidad desde 2022"
+  },
+  "smooth_scroll": true,
+  "custom_css": "/* ==========================================================================\n   DIIA · capa de marca\n   Identidad: negro profundo + oro del logotipo, tipografía espaciada y limpia\n   del portafolio (blanco, líneas finas, fotografía de arquitectura).\n   Los marcadores SKY_A/B/C los sustituye make_site.py por SVG de skyline.\n   ========================================================================== */\n\n:root{--gold:#cfb565;--gold-deep:#a88a3d;--champagne:#ecdba2;--black:#070707}\n\n/* --- Tonos: negro neutro (como el fondo del logo) y marfil cálido ---------- */\n[data-tone=\"dark\"]{--bg:#070707;--bg-rgb:7 7 7;--bg-2:#0d0c0a;--surface:#121110;--surface-2:#1a1814;--muted:#b4ab97}\n[data-tone=\"light\"],:root{--bg:#fbfaf6;--bg-rgb:251 250 246;--bg-2:#f3f0e7;--surface:#ffffff}\n.sec--alt{background:var(--bg-2)}\n\n/* --- Tipografía: Jost (geométrica, afín al logotipo) con aire ------------- */\nh1,h2,h3,h4{font-weight:500}\nh1{font-size:clamp(2.3rem,7vw + .3rem,5.1rem);letter-spacing:-.022em;line-height:1.05}\nh2{font-size:clamp(1.85rem,3.8vw + .45rem,3.2rem);letter-spacing:-.018em;line-height:1.1}\nh3{letter-spacing:.005em}\n.lead,.hero__sub{font-weight:400;line-height:1.7}\n.eyebrow{padding:0;border:0;border-radius:0;background:none;gap:1rem;font:500 .7rem/1.4 var(--font-display);letter-spacing:.3em;color:var(--primary-ink)}\n.eyebrow::before{width:2.4rem;height:1px;border-radius:0;background:currentColor;box-shadow:none;transform-origin:left;animation:lineBreath 4.2s ease-in-out infinite alternate}\n@keyframes lineBreath{from{transform:scaleX(.35);opacity:.55}to{transform:scaleX(1);opacity:1}}\n@media (min-width:640px){.eyebrow{letter-spacing:.42em;font-size:.72rem}}\n\n/* --- Botones: sobrios, mayúsculas con tracking ----------------------------- */\n.btn{white-space:normal;text-align:center;line-height:1.25;padding:.85rem 1.5rem;font:600 .78rem/1.25 var(--font-display);letter-spacing:.14em;text-transform:uppercase}\n.btn--lg{padding:.95rem 1.8rem}\n.btn--sm{font-size:.72rem;padding:.7rem 1.1rem}\n.btn--primary{background:linear-gradient(120deg,var(--gold),var(--champagne),var(--gold));background-size:200% 100%;color:#14110a}\n.btn--ghost{border-color:rgb(var(--ink-rgb)/.3)}\n.hero__ctas .btn{flex:1 1 100%}\n@media (min-width:560px){.hero__ctas .btn{flex:0 0 auto}}\n\n/* --- Loader: marca sobre negro, anillo dorado ------------------------------ */\n.loader__mark{background:radial-gradient(circle at 50% 30%,#17140d,#050505);border:1px solid rgb(var(--glow-rgb)/.45);padding:15%;box-shadow:0 0 60px rgb(var(--glow-rgb)/.28),inset 0 0 22px rgb(var(--glow-rgb)/.12)}\n.loader__ring{width:8.5rem;height:8.5rem}\n.loader__mark,.core__mark{position:relative;overflow:hidden}\n.loader__mark img,.core__mark img{position:absolute;inset:11%;width:78%;height:78%;object-fit:contain}\n.loader__name{max-width:min(80vw,22rem);text-align:center;line-height:1.7;letter-spacing:.34em;font-weight:500;font-size:.68rem;color:var(--gold)}\n.loader__bar{width:12rem}\n\n/* --- Cabecera y logotipo ---------------------------------------------------- */\n.brand img{height:3.5rem;width:auto;max-width:none;transition:height .5s var(--ease)}\n.site-header.is-scrolled .brand img{height:3rem}\n.nav a{letter-spacing:.02em}\n@media (min-width:960px){.nav a{font:500 .72rem/1 var(--font-display);letter-spacing:.22em;text-transform:uppercase}}\n\n/* --- Hero ------------------------------------------------------------------ */\n.hero__sub{max-width:33rem}\n.frame>img{height:auto;object-position:50% 30%}\n.chip{border-radius:2px;font:500 .68rem/1.2 var(--font-display);letter-spacing:.14em;text-transform:uppercase;padding:.65rem .95rem}\n.chip--2{right:-1%;white-space:normal;max-width:15rem}\n.hero__badges li{font-size:.82rem;letter-spacing:.02em}\n/* líneas verticales que laten (eco de las barras del emblema) */\n@keyframes beamV{0%,100%{opacity:0;transform:translateY(-7%)}50%{opacity:.4;transform:translateY(7%)}}\n.beam{transform:none;width:1px;animation:beamV 7s ease-in-out infinite;animation-delay:var(--d,0s);filter:none}\n.fx-beams::before{background:conic-gradient(from 0deg,transparent 0 80%,rgb(var(--glow-rgb)/.13) 90%,transparent 100%)}\n/* skyline en panorámica constante + destello que lo recorre */\n.hero::before,.hero::after{content:\"\";position:absolute;left:0;right:0;bottom:0;height:clamp(11rem,34vh,20rem);pointer-events:none;background:url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%221200%22 height=%22320%22 viewBox=%220 0 1200 320%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 gradientUnits=%22userSpaceOnUse%22 x1=%220%22 y1=%22320%22 x2=%220%22 y2=%220%22%3E%3Cstop offset=%220%22 stop-color=%22%23cfb565%22 stop-opacity=%221%22/%3E%3Cstop offset=%221%22 stop-color=%22%23cfb565%22 stop-opacity=%220%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill=%22none%22 stroke=%22url(%23g)%22 stroke-width=%221.2%22 stroke-linecap=%22butt%22%3E%3Cpath d=%22M6.0 320 V244.5%22/%3E%3Cpath d=%22M17.0 320 V241.4%22/%3E%3Cpath d=%22M28.0 320 V241.6%22/%3E%3Cpath d=%22M61.0 320 V243.8%22/%3E%3Cpath d=%22M72.0 320 V241.1%22/%3E%3Cpath d=%22M83.0 320 V236.8%22/%3E%3Cpath d=%22M116.0 320 V243.9%22/%3E%3Cpath d=%22M127.0 320 V242.3%22/%3E%3Cpath d=%22M138.0 320 V239.3%22/%3E%3Cpath d=%22M149.0 320 V241.1%22/%3E%3Cpath d=%22M160.0 320 V239.9%22/%3E%3Cpath d=%22M171.0 320 V238.1%22/%3E%3Cpath d=%22M182.0 320 V219.6%22/%3E%3Cpath d=%22M193.0 320 V231.3%22/%3E%3Cpath d=%22M215.0 320 V243.3%22/%3E%3Cpath d=%22M226.0 320 V242.1%22/%3E%3Cpath d=%22M237.0 320 V241.6%22/%3E%3Cpath d=%22M270.0 320 V241.7%22/%3E%3Cpath d=%22M292.0 320 V229.4%22/%3E%3Cpath d=%22M303.0 320 V237.3%22/%3E%3Cpath d=%22M314.0 320 V234.9%22/%3E%3Cpath d=%22M325.0 320 V196.2%22/%3E%3Cpath d=%22M336.0 320 V230.0%22/%3E%3Cpath d=%22M347.0 320 V177.8%22/%3E%3Cpath d=%22M358.0 320 V193.0%22/%3E%3Cpath d=%22M391.0 320 V207.7%22/%3E%3Cpath d=%22M402.0 320 V233.2%22/%3E%3Cpath d=%22M413.0 320 V231.7%22/%3E%3Cpath d=%22M424.0 320 V242.4%22/%3E%3Cpath d=%22M435.0 320 V242.2%22/%3E%3Cpath d=%22M446.0 320 V228.7%22/%3E%3Cpath d=%22M457.0 320 V241.1%22/%3E%3Cpath d=%22M479.0 320 V243.8%22/%3E%3Cpath d=%22M490.0 320 V241.3%22/%3E%3Cpath d=%22M523.0 320 V236.1%22/%3E%3Cpath d=%22M534.0 320 V238.7%22/%3E%3Cpath d=%22M545.0 320 V234.1%22/%3E%3Cpath d=%22M556.0 320 V199.1%22/%3E%3Cpath d=%22M567.0 320 V201.4%22/%3E%3Cpath d=%22M578.0 320 V201.5%22/%3E%3Cpath d=%22M589.0 320 V137.1%22/%3E%3Cpath d=%22M611.0 320 V184.3%22/%3E%3Cpath d=%22M622.0 320 V116.7%22/%3E%3Cpath d=%22M644.0 320 V117.3%22/%3E%3Cpath d=%22M655.0 320 V127.9%22/%3E%3Cpath d=%22M688.0 320 V36.0%22/%3E%3Cpath d=%22M699.0 320 V123.6%22/%3E%3Cpath d=%22M710.0 320 V126.7%22/%3E%3Cpath d=%22M732.0 320 V164.9%22/%3E%3Cpath d=%22M743.0 320 V134.9%22/%3E%3Cpath d=%22M754.0 320 V170.1%22/%3E%3Cpath d=%22M787.0 320 V157.8%22/%3E%3Cpath d=%22M798.0 320 V199.3%22/%3E%3Cpath d=%22M809.0 320 V179.9%22/%3E%3Cpath d=%22M820.0 320 V157.1%22/%3E%3Cpath d=%22M831.0 320 V148.1%22/%3E%3Cpath d=%22M842.0 320 V149.0%22/%3E%3Cpath d=%22M853.0 320 V111.5%22/%3E%3Cpath d=%22M864.0 320 V97.8%22/%3E%3Cpath d=%22M875.0 320 V56.1%22/%3E%3Cpath d=%22M886.0 320 V134.0%22/%3E%3Cpath d=%22M897.0 320 V139.5%22/%3E%3Cpath d=%22M908.0 320 V140.8%22/%3E%3Cpath d=%22M919.0 320 V135.2%22/%3E%3Cpath d=%22M930.0 320 V191.0%22/%3E%3Cpath d=%22M941.0 320 V211.3%22/%3E%3Cpath d=%22M952.0 320 V210.6%22/%3E%3Cpath d=%22M963.0 320 V176.3%22/%3E%3Cpath d=%22M974.0 320 V222.8%22/%3E%3Cpath d=%22M985.0 320 V240.9%22/%3E%3Cpath d=%22M996.0 320 V235.3%22/%3E%3Cpath d=%22M1007.0 320 V232.6%22/%3E%3Cpath d=%22M1029.0 320 V239.2%22/%3E%3Cpath d=%22M1040.0 320 V239.6%22/%3E%3Cpath d=%22M1062.0 320 V229.6%22/%3E%3Cpath d=%22M1073.0 320 V239.7%22/%3E%3Cpath d=%22M1084.0 320 V242.3%22/%3E%3Cpath d=%22M1117.0 320 V218.1%22/%3E%3Cpath d=%22M1128.0 320 V212.6%22/%3E%3Cpath d=%22M1139.0 320 V242.6%22/%3E%3Cpath d=%22M1150.0 320 V209.7%22/%3E%3Cpath d=%22M1161.0 320 V191.9%22/%3E%3Cpath d=%22M1183.0 320 V178.9%22/%3E%3Cpath d=%22M1194.0 320 V156.1%22/%3E%3C/g%3E%3Cpath d=%22M0 319.5 H1200%22 stroke=%22%23cfb565%22 stroke-opacity=%22.35%22 stroke-width=%221%22/%3E%3C/svg%3E\") repeat-x left bottom/1200px 100%;opacity:.5;animation:skyPan 140s linear infinite}\n.hero::after{opacity:1;-webkit-mask:linear-gradient(90deg,transparent,#000 50%,transparent) no-repeat -40% 0/38% 100%;mask:linear-gradient(90deg,transparent,#000 50%,transparent) no-repeat -40% 0/38% 100%;animation:skyPan 140s linear infinite,skyScan 9s ease-in-out infinite alternate}\n@keyframes skyPan{to{background-position-x:-1200px}}\n@keyframes skyScan{to{-webkit-mask-position:140% 0;mask-position:140% 0}}\n/* leyenda vertical de la portada del portafolio */\n.hero__bg::before{content:\"Haciendo tus proyectos realidad desde 2022\";position:absolute;right:3.2%;top:46%;writing-mode:vertical-rl;transform:translateY(-50%);font:500 .66rem/1 var(--font-display);letter-spacing:.55em;text-transform:uppercase;color:rgb(var(--glow-rgb)/.62);white-space:nowrap;display:none}\n@media (min-width:1280px){.hero__bg::before{display:block}}\n.hero__in,.scroll-cue{z-index:1}\n.scroll-cue{border-color:rgb(var(--glow-rgb)/.5)}\n\n/* --- Rótulos verticales y palabra \"fantasma\" por sección (como el portafolio) */\n.sec{overflow:hidden}\n.sec::after{position:absolute;right:-1.5%;top:clamp(2rem,5vw,4rem);font:500 clamp(4.2rem,15vw,14rem)/1 var(--font-display);letter-spacing:.06em;text-transform:uppercase;color:transparent;-webkit-text-stroke:1px rgb(var(--ink-rgb)/.075);pointer-events:none;user-select:none;white-space:nowrap}\n#servicios::after{content:\"Servicios\"}\n#nosotros::after{content:\"Nosotros\"}\n#proyectos::after{content:\"Proyectos\"}\n#ingenieria::after{content:\"Ingeniería\"}\n#proceso::after{content:\"Proceso\"}\n#contacto::after{content:\"Contacto\"}\n.sec::before{position:absolute;left:1.2rem;top:6rem;writing-mode:vertical-rl;font:500 .64rem/1 var(--font-display);letter-spacing:.55em;text-transform:uppercase;color:var(--muted);opacity:.7;display:none}\n#servicios::before{content:\"DIIA · Servicios\"}\n#nosotros::before{content:\"DIIA · Sobre nosotros\"}\n#proyectos::before{content:\"DIIA · Proyectos arquitectónicos\"}\n#ingenieria::before{content:\"DIIA · Ingeniería en instalaciones\"}\n#proceso::before{content:\"DIIA · Proceso\"}\n#contacto::before{content:\"DIIA · Contacto\"}\n@media (min-width:1400px){.sec::before{display:block}}\n.sec>.container{position:relative;z-index:1}\n\n/* --- Servicios --------------------------------------------------------------- */\n.grid-cards{counter-reset:svc}\n.card{counter-increment:svc;background:var(--surface);border-color:rgb(var(--ink-rgb)/.1)}\n.card::after{content:\"0\" counter(svc);position:absolute;top:1.3rem;right:1.5rem;font:500 .72rem/1 var(--font-display);letter-spacing:.3em;color:var(--muted)}\n.card h3{font-weight:500;letter-spacing:.01em}\n.card:hover{border-color:rgb(var(--glow-rgb)/.6)}\n.card__ico{border-radius:2px;background:rgb(var(--glow-rgb)/.1)}\n.card__link{font:600 .72rem/1 var(--font-display);letter-spacing:.16em;text-transform:uppercase}\n.card--wide{--text:#f6f1e3;--muted:#b9b09a;color:var(--text);background:radial-gradient(120% 140% at 0% 0%,#1c1810,#070707 62%);border-color:rgb(207 181 101/.35)}\n.card--wide .card__ico{background:rgb(207 181 101/.14)}\n.card--wide .card__link,.card--wide .ticks .ico{color:var(--gold)}\n\n/* --- Sobre nosotros / stats --------------------------------------------------- */\n.sec--stats::before{content:\"\";display:block;left:0;right:0;top:auto;bottom:0;height:70%;writing-mode:horizontal-tb;opacity:.4;pointer-events:none;background:url(\"data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22900%22 height=%22240%22 viewBox=%220 0 900 240%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 gradientUnits=%22userSpaceOnUse%22 x1=%220%22 y1=%22240%22 x2=%220%22 y2=%220%22%3E%3Cstop offset=%220%22 stop-color=%22%23cfb565%22 stop-opacity=%221%22/%3E%3Cstop offset=%221%22 stop-color=%22%23cfb565%22 stop-opacity=%220%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill=%22none%22 stroke=%22url(%23g)%22 stroke-width=%221%22 stroke-linecap=%22butt%22%3E%3Cpath d=%22M6.0 240 V168.8%22/%3E%3Cpath d=%22M15.0 240 V189.1%22/%3E%3Cpath d=%22M24.0 240 V191.0%22/%3E%3Cpath d=%22M33.0 240 V191.1%22/%3E%3Cpath d=%22M42.0 240 V192.4%22/%3E%3Cpath d=%22M51.0 240 V190.0%22/%3E%3Cpath d=%22M60.0 240 V192.6%22/%3E%3Cpath d=%22M69.0 240 V187.4%22/%3E%3Cpath d=%22M78.0 240 V165.3%22/%3E%3Cpath d=%22M87.0 240 V170.3%22/%3E%3Cpath d=%22M96.0 240 V184.0%22/%3E%3Cpath d=%22M105.0 240 V165.6%22/%3E%3Cpath d=%22M114.0 240 V159.9%22/%3E%3Cpath d=%22M141.0 240 V138.2%22/%3E%3Cpath d=%22M150.0 240 V170.9%22/%3E%3Cpath d=%22M159.0 240 V138.1%22/%3E%3Cpath d=%22M168.0 240 V159.2%22/%3E%3Cpath d=%22M177.0 240 V130.6%22/%3E%3Cpath d=%22M186.0 240 V156.9%22/%3E%3Cpath d=%22M213.0 240 V174.7%22/%3E%3Cpath d=%22M222.0 240 V163.0%22/%3E%3Cpath d=%22M240.0 240 V189.1%22/%3E%3Cpath d=%22M258.0 240 V177.1%22/%3E%3Cpath d=%22M267.0 240 V149.3%22/%3E%3Cpath d=%22M276.0 240 V129.2%22/%3E%3Cpath d=%22M285.0 240 V142.2%22/%3E%3Cpath d=%22M312.0 240 V123.6%22/%3E%3Cpath d=%22M321.0 240 V154.0%22/%3E%3Cpath d=%22M330.0 240 V127.1%22/%3E%3Cpath d=%22M339.0 240 V159.6%22/%3E%3Cpath d=%22M357.0 240 V158.6%22/%3E%3Cpath d=%22M366.0 240 V117.2%22/%3E%3Cpath d=%22M375.0 240 V129.2%22/%3E%3Cpath d=%22M384.0 240 V124.7%22/%3E%3Cpath d=%22M393.0 240 V118.7%22/%3E%3Cpath d=%22M402.0 240 V109.9%22/%3E%3Cpath d=%22M420.0 240 V132.1%22/%3E%3Cpath d=%22M429.0 240 V146.8%22/%3E%3Cpath d=%22M447.0 240 V171.1%22/%3E%3Cpath d=%22M456.0 240 V171.5%22/%3E%3Cpath d=%22M483.0 240 V187.4%22/%3E%3Cpath d=%22M492.0 240 V188.4%22/%3E%3Cpath d=%22M519.0 240 V179.3%22/%3E%3Cpath d=%22M528.0 240 V188.8%22/%3E%3Cpath d=%22M537.0 240 V184.0%22/%3E%3Cpath d=%22M546.0 240 V186.1%22/%3E%3Cpath d=%22M555.0 240 V187.8%22/%3E%3Cpath d=%22M564.0 240 V190.3%22/%3E%3Cpath d=%22M573.0 240 V186.1%22/%3E%3Cpath d=%22M582.0 240 V187.6%22/%3E%3Cpath d=%22M600.0 240 V188.2%22/%3E%3Cpath d=%22M609.0 240 V190.6%22/%3E%3Cpath d=%22M618.0 240 V191.7%22/%3E%3Cpath d=%22M627.0 240 V177.6%22/%3E%3Cpath d=%22M654.0 240 V144.9%22/%3E%3Cpath d=%22M663.0 240 V180.4%22/%3E%3Cpath d=%22M672.0 240 V188.3%22/%3E%3Cpath d=%22M681.0 240 V190.5%22/%3E%3Cpath d=%22M699.0 240 V192.1%22/%3E%3Cpath d=%22M708.0 240 V188.7%22/%3E%3Cpath d=%22M717.0 240 V187.0%22/%3E%3Cpath d=%22M735.0 240 V192.2%22/%3E%3Cpath d=%22M744.0 240 V173.9%22/%3E%3Cpath d=%22M753.0 240 V137.9%22/%3E%3Cpath d=%22M762.0 240 V145.2%22/%3E%3Cpath d=%22M780.0 240 V137.9%22/%3E%3Cpath d=%22M789.0 240 V172.4%22/%3E%3Cpath d=%22M798.0 240 V183.5%22/%3E%3Cpath d=%22M807.0 240 V175.8%22/%3E%3Cpath d=%22M816.0 240 V179.9%22/%3E%3Cpath d=%22M825.0 240 V156.4%22/%3E%3Cpath d=%22M834.0 240 V116.0%22/%3E%3Cpath d=%22M843.0 240 V160.2%22/%3E%3Cpath d=%22M852.0 240 V138.7%22/%3E%3Cpath d=%22M861.0 240 V94.5%22/%3E%3Cpath d=%22M870.0 240 V133.0%22/%3E%3Cpath d=%22M897.0 240 V105.4%22/%3E%3C/g%3E%3Cpath d=%22M0 239.5 H900%22 stroke=%22%23cfb565%22 stroke-opacity=%22.35%22 stroke-width=%221%22/%3E%3C/svg%3E\") repeat-x left bottom/900px 100%;animation:skyPan2 120s linear infinite}\n@keyframes skyPan2{to{background-position-x:900px}}\n.badge{border-radius:2px;background:linear-gradient(135deg,var(--gold),var(--gold-deep));color:#14110a}\n.badge strong{font-weight:500;letter-spacing:-.02em}\n.stat__v{font-weight:500}\n.stat__l{letter-spacing:.04em}\n\n/* --- Proyectos (sección propia) ------------------------------------------------ */\n.proj-grid{display:grid;gap:1rem}\n.proj{position:relative;isolation:isolate;overflow:hidden;display:flex;align-items:flex-end;min-height:26rem;border-radius:var(--r-lg);color:#fff;background:#0b0a08;border:1px solid rgb(var(--ink-rgb)/.08)}\n.proj__media{position:absolute;inset:-7% 0;z-index:-2;will-change:transform}\n.proj__media img{width:100%;height:100%;max-width:none;object-fit:cover;transition:transform 1.8s var(--ease),filter 1s}\n.proj:hover .proj__media img{transform:scale(1.07)}\n.proj::after{content:\"\";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgb(0 0 0/.55) 0%,transparent 24%,rgb(5 5 5/.5) 56%,rgb(5 5 5/.95) 100%)}\n.proj::before{content:\"\";position:absolute;inset:0;z-index:0;pointer-events:none;border:1px solid transparent;border-radius:inherit;transition:border-color .6s}\n.proj:hover::before{border-color:rgb(207 181 101/.55)}\n.proj__no{position:absolute;left:1.4rem;top:1.25rem;font:500 .74rem/1 var(--font-display);letter-spacing:.3em;color:var(--champagne);text-shadow:0 1px 10px rgb(0 0 0/.85)}\n.proj__where{position:absolute;right:1.3rem;top:1.1rem;padding:.45rem .75rem;font:500 .62rem/1 var(--font-display);letter-spacing:.22em;text-transform:uppercase;border:1px solid rgb(255 255 255/.28);background:rgb(7 7 7/.35);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}\n.proj__body{position:relative;width:100%;padding:clamp(1.3rem,2.6vw,2rem);padding-top:5rem}\n.proj__tag{font:500 .64rem/1.4 var(--font-display);letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}\n.proj__name{margin:.55rem 0 .35rem;font:500 clamp(1.3rem,2.2vw + .6rem,2.1rem)/1.15 var(--font-display);letter-spacing:.22em;text-transform:uppercase;color:#fff}\n.proj__loc{font:500 .72rem/1.4 var(--font-display);letter-spacing:.14em;text-transform:uppercase;color:rgb(255 255 255/.72)}\n.proj__txt{margin-top:.9rem;max-width:34rem;font-size:.95rem;line-height:1.6;color:rgb(255 255 255/.84)}\n.sec-cta{display:flex;flex-direction:column;align-items:center;gap:1.3rem;margin-top:clamp(2.2rem,5vw,3.6rem);text-align:center}\n.sec-cta p{font:500 clamp(1.05rem,1.4vw + .8rem,1.4rem)/1.35 var(--font-display);letter-spacing:.01em;color:var(--text)}\n@media (min-width:640px){\n  .proj-grid{grid-template-columns:repeat(2,1fr)}\n  .proj--a,.proj--w{grid-column:span 2}\n  .proj{min-height:28rem}\n}\n@media (min-width:960px){\n  .proj-grid{grid-template-columns:repeat(12,1fr);gap:1.1rem}\n  .proj--a{grid-column:span 7;min-height:34rem}\n  .proj--b{grid-column:span 5;min-height:34rem}\n  .proj--c,.proj--d,.proj--e{grid-column:span 4;min-height:30rem}\n  .proj--w{grid-column:span 12;min-height:34rem}\n  .proj--x,.proj--y{grid-column:span 6;min-height:28rem}\n  .proj--w .proj__txt{max-width:40rem;font-size:1.02rem}\n}\n\n/* --- Ingeniería en instalaciones (bloque oscuro con plano animado) ------------- */\n.sec--ing{background:radial-gradient(90% 60% at 85% 0%,rgb(207 181 101/.1),transparent 60%),var(--bg)}\n.ing-top{display:grid;gap:2.6rem;align-items:center;margin-bottom:clamp(2.6rem,6vw,4.6rem)}\n.ing-copy .lead{margin-top:1.1rem}\n.disc{display:grid;gap:0;margin-top:2rem;border-top:1px solid var(--border-strong)}\n.disc li{display:flex;align-items:baseline;gap:1.2rem;padding:.95rem .2rem;border-bottom:1px solid var(--border-strong);transition:padding .5s var(--ease),background .4s,color .4s}\n.disc b{font:500 .74rem/1 var(--font-display);letter-spacing:.3em;color:var(--gold)}\n.disc span{font:500 1.02rem/1.3 var(--font-display);letter-spacing:.06em}\n.disc li:hover{padding-left:1rem;background:rgb(var(--glow-rgb)/.07)}\n.blueprint{position:relative;overflow:hidden;margin:0;padding:clamp(.7rem,2vw,1.2rem);border-radius:var(--r-lg);background:#0b0a08;border:1px solid rgb(var(--glow-rgb)/.32);box-shadow:0 40px 90px -40px rgb(var(--glow-rgb)/.45)}\n.blueprint img{width:100%;height:auto;border-radius:calc(var(--r-lg) - 4px);filter:invert(1) sepia(1) saturate(2.2) hue-rotate(2deg) brightness(1.05) contrast(1.15)}\n.blueprint::before{content:\"\";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgb(207 181 101/.07) 1px,transparent 1px),linear-gradient(90deg,rgb(207 181 101/.07) 1px,transparent 1px);background-size:34px 34px}\n.blueprint::after{content:\"\";position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,transparent,var(--glow),transparent);box-shadow:0 0 22px 4px rgb(var(--glow-rgb)/.55);animation:scanY 6s ease-in-out infinite alternate}\n@keyframes scanY{from{transform:translateY(0)}to{transform:translateY(calc(var(--bh,26rem)))}}\n.blueprint{--bh:22rem}\n.blueprint figcaption{position:relative;margin-top:.9rem;font:500 .62rem/1.5 var(--font-display);letter-spacing:.24em;text-transform:uppercase;color:var(--muted);text-align:center}\n@media (min-width:960px){.ing-top{grid-template-columns:1fr 1fr;gap:5rem}.blueprint{--bh:30rem}}\n\n/* --- Proceso / FAQ / CTA / contacto -------------------------------------------- */\n.step h3{font-weight:500}\n.step__n{border-radius:2px;font-weight:500;letter-spacing:.1em}\n.step.is-in .step__n{color:#14110a}\n.faq{border-radius:2px}\n.faq summary{font-weight:500}\n.cta-card{border-radius:var(--r-lg)}\n.cta-card h2{font-weight:500}\n.cta-card::after{border-radius:calc(var(--r-lg) - 1.5px)}\n.form,.info-list li,.map{border-radius:var(--r-lg)}\n.field label{letter-spacing:.12em;text-transform:uppercase;font-size:.7rem}\n.info-list small{letter-spacing:.2em}\n\n/* --- Footer --------------------------------------------------------------------- */\n.footer__about .brand img{height:4.4rem}\n.footer__col h4{letter-spacing:.3em}\n.footer__bar{letter-spacing:.04em}\n\n/* --- Botón flotante: etiqueta sobria --------------------------------------------- */\n.wa-float__label{border-radius:2px;font:500 .7rem/1 var(--font-display);letter-spacing:.14em;text-transform:uppercase}\n"
+}

@@ -1,0 +1,179 @@
+/* ==========================================================================
+   DIIA · capa de marca
+   Identidad: negro profundo + oro del logotipo, tipografía espaciada y limpia
+   del portafolio (blanco, líneas finas, fotografía de arquitectura).
+   Los marcadores SKY_A/B/C los sustituye make_site.py por SVG de skyline.
+   ========================================================================== */
+
+:root{--gold:#cfb565;--gold-deep:#a88a3d;--champagne:#ecdba2;--black:#070707}
+
+/* --- Tonos: negro neutro (como el fondo del logo) y marfil cálido ---------- */
+[data-tone="dark"]{--bg:#070707;--bg-rgb:7 7 7;--bg-2:#0d0c0a;--surface:#121110;--surface-2:#1a1814;--muted:#b4ab97}
+[data-tone="light"],:root{--bg:#fbfaf6;--bg-rgb:251 250 246;--bg-2:#f3f0e7;--surface:#ffffff}
+.sec--alt{background:var(--bg-2)}
+
+/* --- Tipografía: Jost (geométrica, afín al logotipo) con aire ------------- */
+h1,h2,h3,h4{font-weight:500}
+h1{font-size:clamp(2.3rem,7vw + .3rem,5.1rem);letter-spacing:-.022em;line-height:1.05}
+h2{font-size:clamp(1.85rem,3.8vw + .45rem,3.2rem);letter-spacing:-.018em;line-height:1.1}
+h3{letter-spacing:.005em}
+.lead,.hero__sub{font-weight:400;line-height:1.7}
+.eyebrow{padding:0;border:0;border-radius:0;background:none;gap:1rem;font:500 .7rem/1.4 var(--font-display);letter-spacing:.3em;color:var(--primary-ink)}
+.eyebrow::before{width:2.4rem;height:1px;border-radius:0;background:currentColor;box-shadow:none;transform-origin:left;animation:lineBreath 4.2s ease-in-out infinite alternate}
+@keyframes lineBreath{from{transform:scaleX(.35);opacity:.55}to{transform:scaleX(1);opacity:1}}
+@media (min-width:640px){.eyebrow{letter-spacing:.42em;font-size:.72rem}}
+
+/* --- Botones: sobrios, mayúsculas con tracking ----------------------------- */
+.btn{white-space:normal;text-align:center;line-height:1.25;padding:.85rem 1.5rem;font:600 .78rem/1.25 var(--font-display);letter-spacing:.14em;text-transform:uppercase}
+.btn--lg{padding:.95rem 1.8rem}
+.btn--sm{font-size:.72rem;padding:.7rem 1.1rem}
+.btn--primary{background:linear-gradient(120deg,var(--gold),var(--champagne),var(--gold));background-size:200% 100%;color:#14110a}
+.btn--ghost{border-color:rgb(var(--ink-rgb)/.3)}
+.hero__ctas .btn{flex:1 1 100%}
+@media (min-width:560px){.hero__ctas .btn{flex:0 0 auto}}
+
+/* --- Loader: marca sobre negro, anillo dorado ------------------------------ */
+.loader__mark{background:radial-gradient(circle at 50% 30%,#17140d,#050505);border:1px solid rgb(var(--glow-rgb)/.45);padding:15%;box-shadow:0 0 60px rgb(var(--glow-rgb)/.28),inset 0 0 22px rgb(var(--glow-rgb)/.12)}
+.loader__ring{width:8.5rem;height:8.5rem}
+.loader__mark,.core__mark{position:relative;overflow:hidden}
+.loader__mark img,.core__mark img{position:absolute;inset:11%;width:78%;height:78%;object-fit:contain}
+.loader__name{max-width:min(80vw,22rem);text-align:center;line-height:1.7;letter-spacing:.34em;font-weight:500;font-size:.68rem;color:var(--gold)}
+.loader__bar{width:12rem}
+
+/* --- Cabecera y logotipo ---------------------------------------------------- */
+.brand img{height:3.5rem;width:auto;max-width:none;transition:height .5s var(--ease)}
+.site-header.is-scrolled .brand img{height:3rem}
+.nav a{letter-spacing:.02em}
+@media (min-width:960px){.nav a{font:500 .72rem/1 var(--font-display);letter-spacing:.22em;text-transform:uppercase}}
+
+/* --- Hero ------------------------------------------------------------------ */
+.hero__sub{max-width:33rem}
+.frame>img{height:auto;object-position:50% 30%}
+.chip{border-radius:2px;font:500 .68rem/1.2 var(--font-display);letter-spacing:.14em;text-transform:uppercase;padding:.65rem .95rem}
+.chip--2{right:-1%;white-space:normal;max-width:15rem}
+.hero__badges li{font-size:.82rem;letter-spacing:.02em}
+/* líneas verticales que laten (eco de las barras del emblema) */
+@keyframes beamV{0%,100%{opacity:0;transform:translateY(-7%)}50%{opacity:.4;transform:translateY(7%)}}
+.beam{transform:none;width:1px;animation:beamV 7s ease-in-out infinite;animation-delay:var(--d,0s);filter:none}
+.fx-beams::before{background:conic-gradient(from 0deg,transparent 0 80%,rgb(var(--glow-rgb)/.13) 90%,transparent 100%)}
+/* skyline en panorámica constante + destello que lo recorre */
+.hero::before,.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:clamp(11rem,34vh,20rem);pointer-events:none;background:/*SKY_A*/ repeat-x left bottom/1200px 100%;opacity:.5;animation:skyPan 140s linear infinite}
+.hero::after{opacity:1;-webkit-mask:linear-gradient(90deg,transparent,#000 50%,transparent) no-repeat -40% 0/38% 100%;mask:linear-gradient(90deg,transparent,#000 50%,transparent) no-repeat -40% 0/38% 100%;animation:skyPan 140s linear infinite,skyScan 9s ease-in-out infinite alternate}
+@keyframes skyPan{to{background-position-x:-1200px}}
+@keyframes skyScan{to{-webkit-mask-position:140% 0;mask-position:140% 0}}
+/* leyenda vertical de la portada del portafolio */
+.hero__bg::before{content:"Haciendo tus proyectos realidad desde 2022";position:absolute;right:3.2%;top:46%;writing-mode:vertical-rl;transform:translateY(-50%);font:500 .66rem/1 var(--font-display);letter-spacing:.55em;text-transform:uppercase;color:rgb(var(--glow-rgb)/.62);white-space:nowrap;display:none}
+@media (min-width:1280px){.hero__bg::before{display:block}}
+.hero__in,.scroll-cue{z-index:1}
+.scroll-cue{border-color:rgb(var(--glow-rgb)/.5)}
+
+/* --- Rótulos verticales y palabra "fantasma" por sección (como el portafolio) */
+.sec{overflow:hidden}
+.sec::after{position:absolute;right:-1.5%;top:clamp(2rem,5vw,4rem);font:500 clamp(4.2rem,15vw,14rem)/1 var(--font-display);letter-spacing:.06em;text-transform:uppercase;color:transparent;-webkit-text-stroke:1px rgb(var(--ink-rgb)/.075);pointer-events:none;user-select:none;white-space:nowrap}
+#servicios::after{content:"Servicios"}
+#nosotros::after{content:"Nosotros"}
+#proyectos::after{content:"Proyectos"}
+#ingenieria::after{content:"Ingeniería"}
+#proceso::after{content:"Proceso"}
+#contacto::after{content:"Contacto"}
+.sec::before{position:absolute;left:1.2rem;top:6rem;writing-mode:vertical-rl;font:500 .64rem/1 var(--font-display);letter-spacing:.55em;text-transform:uppercase;color:var(--muted);opacity:.7;display:none}
+#servicios::before{content:"DIIA · Servicios"}
+#nosotros::before{content:"DIIA · Sobre nosotros"}
+#proyectos::before{content:"DIIA · Proyectos arquitectónicos"}
+#ingenieria::before{content:"DIIA · Ingeniería en instalaciones"}
+#proceso::before{content:"DIIA · Proceso"}
+#contacto::before{content:"DIIA · Contacto"}
+@media (min-width:1400px){.sec::before{display:block}}
+.sec>.container{position:relative;z-index:1}
+
+/* --- Servicios --------------------------------------------------------------- */
+.grid-cards{counter-reset:svc}
+.card{counter-increment:svc;background:var(--surface);border-color:rgb(var(--ink-rgb)/.1)}
+.card::after{content:"0" counter(svc);position:absolute;top:1.3rem;right:1.5rem;font:500 .72rem/1 var(--font-display);letter-spacing:.3em;color:var(--muted)}
+.card h3{font-weight:500;letter-spacing:.01em}
+.card:hover{border-color:rgb(var(--glow-rgb)/.6)}
+.card__ico{border-radius:2px;background:rgb(var(--glow-rgb)/.1)}
+.card__link{font:600 .72rem/1 var(--font-display);letter-spacing:.16em;text-transform:uppercase}
+.card--wide{--text:#f6f1e3;--muted:#b9b09a;color:var(--text);background:radial-gradient(120% 140% at 0% 0%,#1c1810,#070707 62%);border-color:rgb(207 181 101/.35)}
+.card--wide .card__ico{background:rgb(207 181 101/.14)}
+.card--wide .card__link,.card--wide .ticks .ico{color:var(--gold)}
+
+/* --- Sobre nosotros / stats --------------------------------------------------- */
+.sec--stats::before{content:"";display:block;left:0;right:0;top:auto;bottom:0;height:70%;writing-mode:horizontal-tb;opacity:.4;pointer-events:none;background:/*SKY_B*/ repeat-x left bottom/900px 100%;animation:skyPan2 120s linear infinite}
+@keyframes skyPan2{to{background-position-x:900px}}
+.badge{border-radius:2px;background:linear-gradient(135deg,var(--gold),var(--gold-deep));color:#14110a}
+.badge strong{font-weight:500;letter-spacing:-.02em}
+.stat__v{font-weight:500}
+.stat__l{letter-spacing:.04em}
+
+/* --- Proyectos (sección propia) ------------------------------------------------ */
+.proj-grid{display:grid;gap:1rem}
+.proj{position:relative;isolation:isolate;overflow:hidden;display:flex;align-items:flex-end;min-height:26rem;border-radius:var(--r-lg);color:#fff;background:#0b0a08;border:1px solid rgb(var(--ink-rgb)/.08)}
+.proj__media{position:absolute;inset:-7% 0;z-index:-2;will-change:transform}
+.proj__media img{width:100%;height:100%;max-width:none;object-fit:cover;transition:transform 1.8s var(--ease),filter 1s}
+.proj:hover .proj__media img{transform:scale(1.07)}
+.proj::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgb(0 0 0/.55) 0%,transparent 24%,rgb(5 5 5/.5) 56%,rgb(5 5 5/.95) 100%)}
+.proj::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;border:1px solid transparent;border-radius:inherit;transition:border-color .6s}
+.proj:hover::before{border-color:rgb(207 181 101/.55)}
+.proj__no{position:absolute;left:1.4rem;top:1.25rem;font:500 .74rem/1 var(--font-display);letter-spacing:.3em;color:var(--champagne);text-shadow:0 1px 10px rgb(0 0 0/.85)}
+.proj__where{position:absolute;right:1.3rem;top:1.1rem;padding:.45rem .75rem;font:500 .62rem/1 var(--font-display);letter-spacing:.22em;text-transform:uppercase;border:1px solid rgb(255 255 255/.28);background:rgb(7 7 7/.35);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.proj__body{position:relative;width:100%;padding:clamp(1.3rem,2.6vw,2rem);padding-top:5rem}
+.proj__tag{font:500 .64rem/1.4 var(--font-display);letter-spacing:.3em;text-transform:uppercase;color:var(--gold)}
+.proj__name{margin:.55rem 0 .35rem;font:500 clamp(1.3rem,2.2vw + .6rem,2.1rem)/1.15 var(--font-display);letter-spacing:.22em;text-transform:uppercase;color:#fff}
+.proj__loc{font:500 .72rem/1.4 var(--font-display);letter-spacing:.14em;text-transform:uppercase;color:rgb(255 255 255/.72)}
+.proj__txt{margin-top:.9rem;max-width:34rem;font-size:.95rem;line-height:1.6;color:rgb(255 255 255/.84)}
+.sec-cta{display:flex;flex-direction:column;align-items:center;gap:1.3rem;margin-top:clamp(2.2rem,5vw,3.6rem);text-align:center}
+.sec-cta p{font:500 clamp(1.05rem,1.4vw + .8rem,1.4rem)/1.35 var(--font-display);letter-spacing:.01em;color:var(--text)}
+@media (min-width:640px){
+  .proj-grid{grid-template-columns:repeat(2,1fr)}
+  .proj--a,.proj--w{grid-column:span 2}
+  .proj{min-height:28rem}
+}
+@media (min-width:960px){
+  .proj-grid{grid-template-columns:repeat(12,1fr);gap:1.1rem}
+  .proj--a{grid-column:span 7;min-height:34rem}
+  .proj--b{grid-column:span 5;min-height:34rem}
+  .proj--c,.proj--d,.proj--e{grid-column:span 4;min-height:30rem}
+  .proj--w{grid-column:span 12;min-height:34rem}
+  .proj--x,.proj--y{grid-column:span 6;min-height:28rem}
+  .proj--w .proj__txt{max-width:40rem;font-size:1.02rem}
+}
+
+/* --- Ingeniería en instalaciones (bloque oscuro con plano animado) ------------- */
+.sec--ing{background:radial-gradient(90% 60% at 85% 0%,rgb(207 181 101/.1),transparent 60%),var(--bg)}
+.ing-top{display:grid;gap:2.6rem;align-items:center;margin-bottom:clamp(2.6rem,6vw,4.6rem)}
+.ing-copy .lead{margin-top:1.1rem}
+.disc{display:grid;gap:0;margin-top:2rem;border-top:1px solid var(--border-strong)}
+.disc li{display:flex;align-items:baseline;gap:1.2rem;padding:.95rem .2rem;border-bottom:1px solid var(--border-strong);transition:padding .5s var(--ease),background .4s,color .4s}
+.disc b{font:500 .74rem/1 var(--font-display);letter-spacing:.3em;color:var(--gold)}
+.disc span{font:500 1.02rem/1.3 var(--font-display);letter-spacing:.06em}
+.disc li:hover{padding-left:1rem;background:rgb(var(--glow-rgb)/.07)}
+.blueprint{position:relative;overflow:hidden;margin:0;padding:clamp(.7rem,2vw,1.2rem);border-radius:var(--r-lg);background:#0b0a08;border:1px solid rgb(var(--glow-rgb)/.32);box-shadow:0 40px 90px -40px rgb(var(--glow-rgb)/.45)}
+.blueprint img{width:100%;height:auto;border-radius:calc(var(--r-lg) - 4px);filter:invert(1) sepia(1) saturate(2.2) hue-rotate(2deg) brightness(1.05) contrast(1.15)}
+.blueprint::before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgb(207 181 101/.07) 1px,transparent 1px),linear-gradient(90deg,rgb(207 181 101/.07) 1px,transparent 1px);background-size:34px 34px}
+.blueprint::after{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:linear-gradient(90deg,transparent,var(--glow),transparent);box-shadow:0 0 22px 4px rgb(var(--glow-rgb)/.55);animation:scanY 6s ease-in-out infinite alternate}
+@keyframes scanY{from{transform:translateY(0)}to{transform:translateY(calc(var(--bh,26rem)))}}
+.blueprint{--bh:22rem}
+.blueprint figcaption{position:relative;margin-top:.9rem;font:500 .62rem/1.5 var(--font-display);letter-spacing:.24em;text-transform:uppercase;color:var(--muted);text-align:center}
+@media (min-width:960px){.ing-top{grid-template-columns:1fr 1fr;gap:5rem}.blueprint{--bh:30rem}}
+
+/* --- Proceso / FAQ / CTA / contacto -------------------------------------------- */
+.step h3{font-weight:500}
+.step__n{border-radius:2px;font-weight:500;letter-spacing:.1em}
+.step.is-in .step__n{color:#14110a}
+.faq{border-radius:2px}
+.faq summary{font-weight:500}
+.cta-card{border-radius:var(--r-lg)}
+.cta-card h2{font-weight:500}
+.cta-card::after{border-radius:calc(var(--r-lg) - 1.5px)}
+.form,.info-list li,.map{border-radius:var(--r-lg)}
+.field label{letter-spacing:.12em;text-transform:uppercase;font-size:.7rem}
+.info-list small{letter-spacing:.2em}
+
+/* --- Footer --------------------------------------------------------------------- */
+.footer__about .brand img{height:4.4rem}
+.footer__col h4{letter-spacing:.3em}
+.footer__bar{letter-spacing:.04em}
+
+/* --- Botón flotante: etiqueta sobria --------------------------------------------- */
+.wa-float__label{border-radius:2px;font:500 .7rem/1 var(--font-display);letter-spacing:.14em;text-transform:uppercase}
